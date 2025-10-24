@@ -2,22 +2,22 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
 const solutions = [
-  { id: 1, title: "Enterprise applications", link: "/solutions/enterprise-applications" },
-  { id: 2, title: "ERP", link: "/solutions/erp" },
-  { id: 3, title: "Financial management", link: "/solutions/financial-management" },
-  { id: 4, title: "Supply chain management", link: "/solutions/supply-chain" },
-  { id: 5, title: "Asset management", link: "/solutions/asset-management" },
-  { id: 6, title: "Fleet management", link: "/solutions/fleet-management" },
-  { id: 7, title: "HR software", link: "/solutions/hr-software" },
-  { id: 8, title: "eLearning software", link: "/solutions/elearning" },
-  { id: 9, title: "eCommerce", link: "/solutions/ecommerce" },
-  { id: 10, title: "Mobile apps", link: "/solutions/mobile-apps" },
-  { id: 11, title: "Content management", link: "/solutions/content-management" },
-  { id: 12, title: "Document management", link: "/solutions/document-management" },
-  { id: 13, title: "CRM", link: "/solutions/crm" },
-  { id: 14, title: "Marketing & advertising", link: "/solutions/marketing" },
-  { id: 15, title: "Web portals", link: "/solutions/web-portals" },
-  { id: 16, title: "Data analytics", link: "/solutions/data-analytics" },
+  { id: 1, title: "Enterprise applications", link: "#" },
+  { id: 2, title: "ERP", link: "#" },
+  { id: 3, title: "Financial management", link: "#" },
+  { id: 4, title: "Supply chain management", link: "#" },
+  { id: 5, title: "Asset management", link: "#" },
+  { id: 6, title: "Fleet management", link: "#" },
+  { id: 7, title: "HR software", link: "#" },
+  { id: 8, title: "eLearning software", link: "#" },
+  { id: 9, title: "eCommerce", link: "#" },
+  { id: 10, title: "Mobile apps", link: "#" },
+  { id: 11, title: "Content management", link: "#" },
+  { id: 12, title: "Document management", link: "#" },
+  { id: 13, title: "CRM", link: "#" },
+  { id: 14, title: "Extensions", link: "#" },
+  { id: 15, title: "Web portals", link: "#" },
+  { id: 16, title: "Data analytics", link: "#" },
 ];
 
 const SolutionCard = ({ title, link }: { title: string; link: string }) => (
